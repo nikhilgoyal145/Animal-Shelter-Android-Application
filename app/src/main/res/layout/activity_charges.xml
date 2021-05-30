@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/uniquedesign1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChargesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charges"
+        android:textColor="@color/purple_700"
+        android:fontFamily="cursive"
+        android:textSize="50dp"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:id="@+id/textview"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/cat"
+            android:padding="15dp"
+            android:id="@+id/catimage"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/catimage"
+            android:textSize="30dp"
+            android:id="@+id/textview12"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:text="Egyptian Cat\n\n \u20B9 70/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview12"
+            android:padding="15dp"
+            android:onClick="DetailsofCat"
+           />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton2"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dog1"
+            android:padding="15dp"
+            android:id="@+id/dogimage"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dogimage"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:id="@+id/textview13"
+            android:text="Puppy\n\n \u20B9 120/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview13"
+            android:padding="15dp"
+            android:onClick="DetailsofDog"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:src="@drawable/dog"
+            android:padding="15dp"
+            android:id="@+id/dog1image"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dog1image"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/textview14"
+            android:fontFamily="cursive"
+            android:text="Fluffy Puppy\n\n \u20B9 140/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview14"
+            android:padding="15dp"
+            android:onClick="DetailsofDog"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton2"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:src="@drawable/birds"
+            android:padding="15dp"
+            android:id="@+id/birdimage"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/birdimage"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:id="@+id/textview15"
+            android:text="Parrot\n\n \u20B9 200/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview15"
+            android:padding="15dp"
+            android:onClick="DetailsofParrot"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:src="@drawable/birds1"
+            android:padding="15dp"
+            android:id="@+id/bird1image"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bird1image"
+            android:textSize="26dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/textview16"
+            android:fontFamily="cursive"
+            android:text="North American Parrot\n\n \u20B9 250/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview16"
+            android:padding="15dp"
+            android:onClick="DetailsofParrot"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton2"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:src="@drawable/dog2"
+            android:padding="15dp"
+            android:id="@+id/dog2image"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dog2image"
+            android:textSize="26dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:id="@+id/textview17"
+            android:text="North American Dog\n\n \u20B9 320/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview17"
+            android:padding="15dp"
+            android:onClick="DetailsofDog"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:src="@drawable/rabbit"
+            android:padding="15dp"
+            android:id="@+id/rabbit1image"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rabbit1image"
+            android:textSize="26dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:id="@+id/textview18"
+            android:text="Rabbit\n\n \u20B9 340/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview18"
+            android:padding="15dp"
+            android:onClick="DetailsofRabbit"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/imagebutton2"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:src="@drawable/rabbit1"
+            android:padding="15dp"
+            android:id="@+id/rabbit2image"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rabbit2image"
+            android:textSize="26dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:id="@+id/textview19"
+            android:text="Winter Rabbit\n\n \u20B9 380/Day"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_toRightOf="@+id/textview19"
+            android:padding="15dp"
+            android:onClick="DetailsofRabbit"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

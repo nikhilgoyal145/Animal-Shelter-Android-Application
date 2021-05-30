@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textSize="36dp"
+        android:textColor="#F4511E"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp"
+        android:text="Terms of service are the legal agreements between a service provider and a person who wants to use that service. The person must agree to abide by the terms of service in order to use the offered service. Terms of service can also be merely a disclaimer, especially regarding the use of websites. \n                  -By Nikhil Goyal"
+        android:textColor="@color/purple_700"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgdesign1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgdesign1"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="Welcome"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:textColor="#3949AB"
+        android:fontFamily="cursive"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:id="@+id/circleimageview"
+        android:layout_toRightOf="@id/welcome"
+        android:padding="5dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/purple_700"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/logout"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Booking"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:textColor="#39630C"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/booking"
+            android:background="@drawable/imagebutton"/>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Charges"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="#39630C"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="14dp"
+        android:layout_margin="8dp"
+        android:id="@+id/charges"
+        android:layout_toRightOf="@id/booking"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/imagebutton"/>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textColor="#39630C"
+            android:textStyle="bold"
+            android:padding="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toRightOf="@id/charges"
+            android:id="@+id/Payment"
+            android:background="@drawable/imagebutton"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catalogue"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="cursive"
+        android:id="@+id/catalogue"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/cat"
+            android:padding="15dp"
+            android:id="@+id/catimage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/catimage"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:text="Egyptian Cat\n\n \u20B9 75"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dog1"
+            android:padding="15dp"
+            android:id="@+id/dogimage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dogimage"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:text="Puppy\n\n \u20B9 100"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:src="@drawable/dog"
+            android:padding="15dp"
+            android:id="@+id/dog1image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dog1image"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:text="\nFluffy Puppy\n \u20B9 120"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/birds"
+            android:padding="15dp"
+            android:id="@+id/birdimage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/birdimage"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:text="Parrot\n\n \u20B9 200"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/imagebutton1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/birds1"
+            android:padding="15dp"
+            android:id="@+id/bird1image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bird1image"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="cursive"
+            android:text="American Parrot\n\n \u20B9 280"/>
+    </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

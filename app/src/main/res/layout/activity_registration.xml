@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/designlayout"
+    tools:context=".RegistrationActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/loginimage"
+        android:layout_marginTop="50dp"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#FFB300"
+        android:layout_marginLeft="106dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:layout_marginBottom="26dp"
+                android:textSize="30dp"
+                android:fontFamily="cursive"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edtdesign"
+                android:padding="8dp"
+                android:textColorHint="@android:color/white"
+                android:hint="E-mail :"
+                android:id="@+id/email_reg"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edtdesign"
+                android:padding="8dp"
+                android:textColorHint="@android:color/white"
+                android:hint="Password :"
+                android:id="@+id/password_reg"
+                android:inputType="textPassword"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I have read terms and conditions"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/checkbox1"
+                android:textSize="24dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:fontFamily="cursive"
+                android:textSize="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/edtdesign"
+                android:padding="8dp"
+                android:id="@+id/reg_btn"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already have account?Log in here"
+                android:fontFamily="cursive"
+                android:textSize="26dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:id="@+id/login_txt"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

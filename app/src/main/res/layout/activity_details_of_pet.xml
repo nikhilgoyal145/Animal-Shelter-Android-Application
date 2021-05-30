@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/uniquedesign2">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/uniquedesign2"
+    tools:context=".DetailsOfPet">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/backbutton"
+        app:civ_border_width="4dp"
+        android:layout_margin="10dp"
+        android:onClick="backbutton"
+        android:id="@+id/backbutton"
+        app:civ_border_color="@color/purple_700"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/homebutton"
+            app:civ_border_width="4dp"
+            android:layout_toRightOf="@id/backbutton"
+            android:onClick="homebutton"
+            android:layout_marginLeft="274dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:civ_border_color="@color/purple_700"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Animal Shelter Home"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#5E35B1"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:id="@+id/aboutus"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/imagebutton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pet Name"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="#8E24AA"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:id="@+id/pettitle"
+        android:layout_marginTop="12dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pet Introduction"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:fontFamily="cursive"
+            android:padding="10dp"
+            android:gravity="center"
+            android:id="@+id/petintroduction"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaymentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolbar"
+        android:background="#E69B3C"
+        />
+
+    <LinearLayout
+        android:background="@drawable/uniquedesign2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Booked History is "
+            android:textColor="@color/purple_700"
+            android:fontFamily="cursive"
+            android:textSize="35dp"
+            android:layout_marginTop="22dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/textview"
+            />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="\u20B9 5000 /-Only {Including GST} "-->
+<!--            android:textColor="@color/purple_700"-->
+<!--            android:fontFamily="cursive"-->
+<!--            android:textSize="28dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:padding="5dp"-->
+<!--            android:gravity="center"-->
+<!--            android:id="@+id/textviewamount"-->
+<!--            />-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>
